@@ -1,0 +1,118 @@
+body {
+    color: black;
+    padding: 2em;
+    /* 2 times the current zoom level font size */
+    background-color: antiquewhite;
+    background-image: url("HH.jpg");
+    background-repeat:repeat;
+    background-blend-mode: soft-light;
+}
+
+.class1 {
+    color: blue;
+}
+/* For Top Nav */
+nav a {
+    font-family: 'sans-serif','fantasy','Helvetica', ;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 9px 18px;
+    text-decoration: none;
+    float: left;
+    background-color: black;
+    
+}
+/* All Hovers starting here */
+nav a:hover {
+
+    background-color: orange;
+}
+
+.div a:hover {
+    background-color: orange;
+}
+
+.h1font {
+    color: black;
+    font-size: 50px;
+    text-align: center;
+}
+
+.unorderedlist {
+    color: black;
+    font-size: 20px;
+}
+
+.Largefont {
+    color: black;
+    font-size: 100px;
+    text-align: center;
+}
+
+.H2font {
+    color: black;
+    font-size: 50px;
+    text-align: center;
+}
+
+.div2 {
+    font-size: 30px;
+    color: black;
+    text-align: center;
+    line-height: normal;
+}
+
+.div {
+    font-size: 60px;
+    color: aliceblue;
+    border: 1px solid #ccc;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    height: 600px;
+    background-color: ghostwhite;
+    border-width: thick;
+    background-image: url(Tech.jpg);
+    
+
+}
+
+.div a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.HomePage a {
+   font-family:sans-serif, monospace, fantasy;
+    font-size: 20px;
+   font-weight: bold;
+    text-decoration-line: none;
+    float: right;
+}
+.FW {
+    font-size: 60px;
+    text-align: center;
+}
+
+
+.div3 {
+    background-color: skyblue;
+    font-size: 25px;
+    font-family: helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.art1 {
+    text-align: center;
+    background-color: skyblue;
+}
+
+#someId {
+    color: red;
+}
+
+footer {
+    margin-top: 64px;
+}

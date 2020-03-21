@@ -1,0 +1,172 @@
+body {
+    color: black;
+    padding: 2em;   
+}
+ body>p:hover {
+   background-color: azure;
+}
+.item1 { grid-area: header; 
+}
+.item2 { grid-area: menu; 
+}
+.item3 { grid-area: main; 
+}
+.item5 { grid-area: footer; 
+}
+.Gridlayout>.item1>a:hover{
+  background-color: orange;  
+}
+.Gridlayout>.item2>a:hover{
+  background-color: orange;  
+}
+.Gridlayout>.item3>a:hover{
+  background-color: orange;  
+}
+.Gridlayout>.item5>a:hover{
+  background-color: orange;  
+}
+.Gridlayout {
+  display: grid;
+  grid-template-areas:
+    'menu menu menu header header header header'
+    'menu menu menu main main main main'
+    'menu menu menu footer footer footer footer';
+  grid-gap: 8px;
+  background-color: black;
+  padding: 12px;
+}
+
+@media only screen and (max-width: 760px){
+    .Gridlayout {
+  display: grid;
+  grid-template-areas:
+    'menu'
+    'menu'
+    'main'
+    'footer'
+    'header';
+  grid-gap: 1px;
+  background-color: darkblue;
+  padding: 0px;
+    } 
+
+.Gridlayout>.item1>img{
+    height: 100%;
+    width: 100%;
+    border: 2px;
+    margin-left: 1px;
+   
+}
+.Gridlayout>.item2>img{
+    height: 100%;
+    width: 100%;
+    border: 2px;
+    margin-left:1px;
+  
+}
+.Gridlayout>.item3>img{
+   height: 100%;
+    width: 100%;
+    border: 2px;
+    margin-left: 1px;
+   
+}
+.Gridlayout>.item5>img{
+    height: 100%;
+    width: 100%;
+    border: 2px;
+    margin-left: 1px;
+
+}
+
+
+}
+  
+
+
+.Gridlayout > div {
+  background-color: gold;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 40px;
+}
+footer {
+   float: right;
+}
+.item2 >p {
+   font-size: 15px;
+    margin-right: 20px;
+    margin-left: 10px;
+}
+.item1 >p {
+   font-size: 15px;
+    margin-right: 20px;
+    margin-left: 10px;
+}
+.item3 >p {
+   font-size: 15px;
+    margin-right: 20px;
+    margin-left: 10px;
+}
+.item5 >p {
+   font-size: 15px;
+    margin-right: 20px;
+    margin-left: 10px;
+}
+.Gridlayout p{
+  text-align:justify;
+    font-family: 'arial','times new roman','san-serif';
+    font-size: 15px;
+    
+}
+.item1 >a {
+    text-decoration: none;
+    color: black;
+}
+.item2 >a {
+    text-decoration: none;
+    color: black;
+}
+.item3 >a {
+    text-decoration: none;
+    color: black;
+}
+.item5 >a {
+    text-decoration: none;
+    color: black;
+}
+Gridlayout > .item1 > p >img  {
+    border-color: aqua;
+}
+.Gridlayout>.item1>p>img{
+    height: 200px;
+    width: 200px;
+    border: 2px;
+    margin-left: 1px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.Gridlayout>.item2>p>img{
+    height: 200px;
+    width: 200px;
+    border: 2px;
+    margin-left:1px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.Gridlayout>.item3>p>img{
+   height: 200px;
+    width: 200px;
+    border: 2px;
+    margin-left: 1px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.Gridlayout>.item5>p>img{
+    height: 200px;
+    width: 200px;
+    border: 2px;
+    margin-left: 1px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}

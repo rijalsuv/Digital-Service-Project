@@ -1,0 +1,66 @@
+body {
+    color: black;
+    padding: 2em;  
+    text-align: center;
+}
+
+footer {
+    margin-top: 64px; 
+    float: right;
+}
+
+caption {
+    font-weight: bold;
+    font-size: 30px;
+    font-family: 'Helvetica','Sans-serif';
+    background-color: lightblue;
+    padding: 25px;
+}
+
+table,th,td {
+    align-self: center;
+    border-collapse:collapse;
+    text-align: center;
+    padding: 15px;
+    
+    
+}
+#MrTable {
+    margin: auto;
+}
+tr:hover { 
+    background-color: gold; 
+}
+td, tr {
+   font-size:30px;
+}
+thead {
+   color: black;
+}
+tfoot {
+   font-style:italic;
+}
+tfoot > tr>td>a{
+    color: black;
+}
+@media only screen and (max-width: 760px){
+    caption {
+  font-weight: bold;
+    font-size: 20px;
+    font-family: 'Helvetica','Sans-serif';
+    background-color: lightblue;
+    padding: 10px;
+    } 
+
+    th,tr,td,tfoot{
+        font-size: 9px;
+        font-weight: bold;
+        background: white;
+    }
+    table{
+        margin-left: 0px;
+    }
+    tr:hover { 
+    background-color: gold; 
+}
+}

@@ -1,0 +1,30 @@
+body {
+    color: black;
+    padding: 2em;   /* 2 times the current zoom level font size */
+}
+
+footer {
+    margin-top: 64px;   /* Keeps footer a bit separated from main content */
+}
+
+Img {
+    width: 170px;
+    height: 150px;
+    Float: right;
+    background-color: gold;
+}
+
+div {
+    border: 3px solid black;
+    padding: 5px;
+    background-color: gold;
+}
+.C1 {
+    overflow: auto;
+}
+
+button{
+    background-color: whitesmoke;
+    text-align: center;
+}
+
